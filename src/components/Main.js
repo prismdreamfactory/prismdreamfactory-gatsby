@@ -76,8 +76,9 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <p>
-            We help clients solve business problems by fusing creativity,
-            innovation, strategy, and craft.
+            We help clients build brands. We solve business problems, striving
+            always to deliver high quality content in both creative and
+            commercial formats.
           </p>
         </article>
 

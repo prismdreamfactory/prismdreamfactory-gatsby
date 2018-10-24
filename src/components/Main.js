@@ -30,9 +30,6 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
           <p>
             Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
             aliquam facilisis ante interdum congue. Integer mollis, nisl amet
@@ -57,31 +54,19 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          id="services"
+          className={`${this.props.article === 'services' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Services</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <ol>
+            <li>Branding</li>
+            <li>Strategy</li>
+            <li>Video Production</li>
+            <li>Web Development</li>
+          </ol>
           {close}
         </article>
 
@@ -93,9 +78,6 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
           <p>
             Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
             eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam

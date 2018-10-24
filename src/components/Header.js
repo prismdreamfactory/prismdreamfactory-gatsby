@@ -27,7 +27,7 @@ const Header = props => (
           <a
             href="javascript:;"
             onClick={() => {
-              props.onOpenArticle('work')
+              props.onOpenArticle('services')
             }}
           >
             Services

@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
+  "name": "prism-dream-factory",
+  "description": "Prism Dream Factory Website",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "ekayy",
   "dependencies": {
     "gatsby": "^2.0.0",
     "gatsby-plugin-manifest": "^2.0.2",
@@ -29,6 +29,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/prismdreamfactory/prismdreamfactory"
   }
 }

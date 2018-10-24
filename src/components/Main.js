@@ -23,34 +23,18 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
+          id="vision"
+          className={`${this.props.article === 'vision' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
-          <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-          </p>
-          {close}
+          <h2 className="major">Our Vision</h2>
+          <ul>
+            <li>To Be True</li>
+            <li>To Be Honest</li>
+            <li>To Connect</li>
+          </ul>
         </article>
 
         <article
@@ -61,13 +45,26 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Services</h2>
-          <ol>
-            <li>Branding</li>
-            <li>Strategy</li>
-            <li>Video Production</li>
-            <li>Web Development</li>
-          </ol>
-          {close}
+          <ul>
+            <li>Company Website, Platform, Development, SEO</li>
+            <li>Branding Decks, Graphical Assets</li>
+            <li>
+              Investor Decks, Investment Plans, One-Pager, Sales Decks/Pitches &
+              Executive Summaries
+            </li>
+            <li>
+              Market Strategy, Penetration Strategy & Marketing Plans,
+              Advertising & Digital PR
+            </li>
+            <li>
+              Marketing Media Content Creation: <br />
+              Video/Film, Photo, Commercial Content, Viral Content, Consumer
+              Education, Social Media Content, Audio Production, Company
+              Graphics & Design, 3D Modeling, Product Design, Visual Effects,
+              Motion Graphics, Animation
+            </li>
+            <li>Social Media Account Management & Growth Strategies </li>
+          </ul>
         </article>
 
         <article
@@ -79,15 +76,9 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            We help clients solve business problems by fusing creativity,
+            innovation, strategy, and craft.
           </p>
-          {close}
         </article>
 
         <article
@@ -98,58 +89,9 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form
-            name="contact"
-            method="post"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-          >
-            <input type="hidden" name="bot-field" />
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4" />
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
-          <ul className="icons">
-            <li>
-              <a href="#" className="icon fa-twitter">
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="#" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="#" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a href="#" className="icon fa-github">
-                <span className="label">GitHub</span>
-              </a>
-            </li>
-          </ul>
-          {close}
+          <a href="mailto:dennis@prismgateway.com">dennis@prismgateway.com</a>
         </article>
+        {close}
       </div>
     )
   }
